@@ -10,36 +10,44 @@
                     "title": "Java"
                 },
                 {
-                    "icon": "images/skills/php.png",
-                    "title": "PHP"
+                    "icon": "images/skills/css.png",
+                    "title": "css"
                 },
                 {
-                    "icon": "images/skills/js.png",
+                    "icon": "images/skills/html.png",
+                    "title": "Html"
+                },
+                {
+                    "icon": "images/skills/javascript.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/python.png",
-                    "title": "Python"
-                },
-                {
-                    "icon": "images/skills/mysql.png",
-                    "title": "MySQL"
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/android_new.png",
-                    "title": "Android"
+                    "icon": "images/skills/react_logo.png",
+                    "title": "React.js"
                 },
                 {
-                    "icon": "images/skills/react.png",
-                    "title": "React"
+                    "icon": "images/skills/bootstrap_logo.png",
+                    "title": "Bootstrap"
                 },
                 {
-                    "icon": "images/skills/nodejs.png",
+                    "icon": "images/skills/express_logo.png",
+                    "title": "Express"
+                },
+                {
+                    "icon": "images/skills/node_logo.jpg",
                     "title": "Nodejs"
+                },
+                {
+                    "icon": "images/skills/tailwind_logo.png",
+                    "title": "tailwind"
                 }
             ]
         },
@@ -47,16 +55,32 @@
             "title" : "Tools & Platforms",
             "items": [
                 {
-                    "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "icon": "images/skills/blender_logo(1).png",
+                    "title": "Blender"
                 },
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/docker.png",
-                    "title": "Docker"
+                    "icon": "images/skills/canva-logo.png",
+                    "title": "Canva"
+                },
+                {
+                    "icon": "images/skills/figma_logo(1).png",
+                    "title": "Figma"
+                },
+                {
+                    "icon": "images/skills/intelliJ_IDEA(1).png",
+                    "title": "intelliJ_IDEA"
+                },
+                {
+                    "icon": "images/skills/postman_logo(1).png",
+                    "title": "postman"
+                },
+                {
+                    "icon": "images/skills/vs_code_logo.png",
+                    "title": "VScode"
                 }
             ]
     }

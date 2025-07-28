@@ -1,9 +1,5 @@
 {
-    "logo" : {
-        "source": "images/logo.png",
-        "height" : 45,
-        "width" : 50
-    },
+    
     "sections": [
         {
             "title": "Home",
@@ -31,7 +27,7 @@
         },
         {
             "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
+            "href": "https://1drv.ms/b/c/367726f1d8ea9d0c/Eb-tUov5ZB9Is1xbV9dXvmcBe9HWrp5qjHYy5VRtsbNGzQ?e=K7DRea",
             "type": "link"
         }
     ]

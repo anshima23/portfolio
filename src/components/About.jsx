@@ -9,29 +9,34 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   introTextContainer: {
-    margin: 10,
-    flexDirection: 'column',
+    margin: '10px 0',
     whiteSpace: 'pre-wrap',
     textAlign: 'left',
     fontSize: '1.2em',
     fontWeight: 500,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
   },
   introImageContainer: {
-    margin: 10,
+    margin: '10px 0',
+    display: 'flex',
     justifyContent: 'center',
     alignItems: 'center',
-    display: 'flex',
+  },
+  profileImage: {
+    maxWidth: '100%',
+    height: 'auto',
+    borderRadius: '10px',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
   },
 };
 
-function About(props) {
-  const { header } = props;
+function About({ header }) {
   const [data, setData] = useState(null);
 
   const parseIntro = (text) => (
-    <ReactMarkdown
-      children={text}
-    />
+    <ReactMarkdown children={text} />
   );
 
   useEffect(() => {
@@ -40,7 +45,7 @@ function About(props) {
     })
       .then((res) => res.json())
       .then((res) => setData(res))
-      .catch((err) => err);
+      .catch((err) => console.error(err));
   }, []);
 
   return (
@@ -48,20 +53,24 @@ function About(props) {
       <Header title={header} />
       <div className="section-content-container">
         <Container>
-          {data
-            ? (
-              <Fade>
-                <Row>
-                  <Col style={styles.introTextContainer}>
-                    {parseIntro(data.about)}
-                  </Col>
-                  <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
-                  </Col>
-                </Row>
-              </Fade>
-            )
-            : <FallbackSpinner />}
+          {data ? (
+            <Fade>
+              <Row className="align-items-center">
+                <Col xs={12} md={7} style={styles.introTextContainer}>
+                  {parseIntro(data.about)}
+                </Col>
+                <Col xs={12} md={5} style={styles.introImageContainer}>
+                  <img
+                    src={data?.imageSource}
+                    alt="profile"
+                    style={styles.profileImage}
+                  />
+                </Col>
+              </Row>
+            </Fade>
+          ) : (
+            <FallbackSpinner />
+          )}
         </Container>
       </div>
     </>

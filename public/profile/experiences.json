@@ -1,33 +1,24 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Training & Placement Cell Cordinator",
+            "subtitle": "AKGEC",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "Collaborated with recruiters and coordinated placement drives to ensure smooth execution of interviews and selection processes for various on-campus and off-campus opportunities"
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "06/2023 – Present"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
-            "workDescription": [
-                "Worked on abc."
-            ],
-            "dateText": "01/20XX – 05/20XX"
-        },
-        {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
-            "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
-            ],
-            "dateText": "09/20XX – 01/20YY"
-        }
+  "title": "Full Stack Developer Intern",
+  "subtitle": "EqualInfotech",
+  "workType": "Remote",
+  "workDescription": [
+    "Built dynamic and responsive user interfaces with React.js and Tailwind CSS, and implemented secure RESTful APIs using Node.js and Express.js with JWT authentication and protected routes.",
+    "Managed backend operations with MongoDB, tested APIs using Postman, and deployed production-ready applications on Vercel and Render."
+  ],
+  "dateText": "02/2025 – 04/2025"
+}
+
     ]
 }

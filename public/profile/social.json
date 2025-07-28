@@ -2,15 +2,15 @@
     "social": [
         {
             "network" : "linkedin",
-            "href": "https://linkedin.com/"
+            "href": "https://www.linkedin.com/in/anshima23/"
         },
         {
             "network" : "github",
-            "href": "https://github.com/mayankagarwal09"
+            "href": "https://github.com/anshima23/"
         },
         {
-            "network" : "email",
-            "href": "mailto:test@test.com"
+            "network": "email",
+      "href": "mailto:anshima541@gmail.com"
         }
     ]
 }

@@ -1,150 +1,235 @@
 {
-    "projects" : [
+  "projects": [
+    {
+      "image": "images/projects/fixMYRide_image.jpg",
+      "title": "FixMyRide-Smart Roadside Assistance & Vehicle Repair",
+      "bodyText": "- AI-powered roadside help with real-time issue detection for highways & remote areas.\n - Emergency services like towing, fuel, and SOS alerts tailored for women's safety.\n - Includes AI chatbots, GPS support, cost estimations, and IoT-based accident detection.",
+      "links": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/FixRide"
         },
         {
-            "image" : "images/projects/caaring-poster.png",
-            "title": "Caaring -  Cab Share App",
-            "bodyText": "- A Cab Sharing web app made using **Django** for **VIT** Students. People can create a new cab or request to join an existing cab.\n - Added User authentication and password reset using **SendGrid**.\n - Deployed on **heroku** using **gunicorn**.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Caaring"
-                },
-                {
-                    "text": "Live",
-                    "href": "http://caaring.herokuapp.com"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "BootStrap",
-                "SendGrid",
-                "Heroku",
-                "Gunicorn",
-                "VIT"
-            ]
-        },
-        {
-            "image" : "images/projects/quiet-hours-poster.jpg",
-            "title": "Quiet Hours App",
-            "bodyText": "- An Android App that **automatically silences** your phone during class hours, designed for **VITians**.\n - Option to select class **slots** and **custom time**.\n - Option to put on Vibrate instead of Silent.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/QuietHours-Android"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Alarm Manager",
-                "VIT"
-            ]
-        },
-        {
-            "title": "Secure Chat App",
-            "bodyText": "- An Android App that allows users to send texts in real time.\n - End to End encryption using **RSA** Algorithm.\n - Uses **Firebase** database to store texts.\n - Secured with **Fingerprint** lock.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/SecureChatApp"
-                }
-            ],
-            "tags" : [
-                "Java",
-                "Android",
-                "Firebase",
-                "RSA"
-            ]
-        },
-        {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Feed List App",
-            "bodyText": "- An Android App that loads list of feeds from a **paginated** API and shows in a RecyclerView.\n - Uses the **MVVM** architecture.\n - Uses **Paging 3** library along with other Architecture Components.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Paging 3",
-                "Coroutines",
-                "Flow"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
-        },
-        {
-            "title": "Image Encryption/Decryption",
-            "bodyText": "- A Web App for Image Encryption and Decryption made in **Django**.\n - Uses **SDES** algorithm for encryption/decryption.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/img-encrypt-sdes"
-                }
-            ],
-            "tags" : [
-                "Python",
-                "Django",
-                "SDES",
-                "Cryptography"
-            ]
+          "text": "Live",
+          "href": "https://fixride-frontend-fg4u.onrender.com/"
         }
-    ]
+      ],
+      "tags": ["React", "Node.js", "MongoDB", "AI", "IoT", "Tailwind CSS"]
+    },
+
+    {
+      "image": "images/projects/college_navigation_image.jpg",
+      "title": "College Navigation System",
+      "bodyText": "- Seamless indoor and outdoor navigation using Mapbox and Leaflet.js\n- 3D model-enhanced interactive map of entire college campus\n- Smart AI search using Fuse.js and detailed faculty directory\n- Live routing, event integration, and mobile-friendly interface",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/College-Navigation"
+        }
+      ],
+      "tags": [
+        "Mapbox",
+        "Leaflet.js",
+        "3D Model",
+        "Fuse.js",
+        "React",
+        "Navigation"
+      ]
+    },
+    {
+      "image": "images/projects/no_password_image.jpg",
+      "title": "No-Password – Secure Password Manager",
+      "bodyText": "- Built a secure password manager with Clerk-based authentication\n- Encrypted storage for social media and credit/debit card credentials\n- User-friendly dashboard for managing stored credentials with ease\n- Fully responsive UI with seamless cross-device compatibility\n- Focused on privacy-first design and strong data protection practices",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/no-password"
+        },
+        {
+          "text": "Live",
+          "href": "https://no-password-6ieh.vercel.app/"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Clerk Auth",
+        "Encryption",
+        "Tailwind CSS",
+        "Data Security",
+        "Password Manager"
+      ]
+    },
+    {
+      "image": "images/projects/nagar_photo.jpg",
+      "title": "NagarSuraksha-Government Collaboration App",
+      "bodyText": "- Enabled cross-agency coordination to reduce project overlap\n- Real-time updates on public infrastructure projects\n- Area-based tracking and project deadline alerts\n- Improved public transparency and resource efficiency",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/NagarSuraksha"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Infrastructure Coordination",
+        "Government App",
+        "Project Tracking"
+      ]
+    },
+    {
+      "image": "images/projects/job_portal_image.jpg",
+      "title": "Job Portal",
+      "bodyText": "- Full-featured job portal with user and employer roles\n- Job search, application, and posting capabilities\n- Secure authentication and authorization system\n- Responsive dashboard for both job seekers and recruiters",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/job-portal"
+        },
+        {
+          "text": "Live",
+          "href": "https://job-portal-ahjr.onrender.com"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "Job Portal",
+        "Authentication"
+      ]
+    },
+    {
+      "image": "images/projects/solar_system_image.jpg",
+      "title": "Solar System Explorer – 3D Interactive Space Simulation",
+      "bodyText": "- Real-time physics-based planetary motion with dynamic sunlight and shadows\n- Explore planets with smooth camera controls and zoomable views\n- High-resolution textures and realistic space environment\n- Interactive UI allows users to learn more about each celestial body",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/solar-system-three.js-"
+        },
+        {
+          "text": "Live",
+          "href": "https://solar-system-three-js-weld.vercel.app/"
+        }
+      ],
+      "tags": [
+        "Three.js",
+        "3D Modeling",
+        "JavaScript",
+        "WebGL",
+        "Physics",
+        "Simulation"
+      ]
+    },
+    {
+      "image": "images/projects/hotelbooking_image.jpg",
+      "title": "LuxeStay – Smart Hotel Booking Platform",
+      "bodyText": "- AI-powered personalized hotel recommendations with real-time pricing\n- Smooth, secure, and elegant booking flow with mobile optimization\n- Advanced filtering, interactive maps, and user reviews for smarter decisions\n- Secure authentication and loyalty reward system for user engagement",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/node_hotels"
+        }
+      ],
+      "tags": [
+        "React",
+        "Node.js",
+        "JWT",
+        "MongoDB",
+        "Tailwind CSS",
+        "AI",
+        "Hotel Booking"
+      ]
+    },
+
+    {
+      "image": "images/projects/food_delivery_image.jpg",
+      "title": "Food Delivery App",
+      "bodyText": "- AI-driven food recommendations with real-time order tracking\n- Integrated dietary filters for personalized experience\n- Secure payment gateway and seamless restaurant discovery\n- Clean, responsive UI with intuitive navigation",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/Food-Delivery"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "Tailwind CSS",
+        "JWT",
+        "FoodTech",
+        "AI"
+      ]
+    },
+    {
+      "image": "images/projects/bag_purchase_image.jpg",
+      "title": "Bag Haven – Smart E-commerce Platform for Bags",
+      "bodyText": "- AI-powered product recommendations and dynamic filtering with Fuse.js\n- Owner dashboard for managing products, inventory, and discounts\n- JWT-based secure authentication with intuitive login/signup system\n- Smooth cart functionality and real-time stock updates",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/scatch"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Node.js",
+        "MongoDB",
+        "Express",
+        "JWT",
+        "Tailwind CSS",
+        "Fuse.js",
+        "E-commerce"
+      ]
+    },
+
+    {
+      "image": "images/projects/ride_sharing_image.jpg",
+      "title": "Ride Sharing App",
+      "bodyText": "- AI-powered ride matching with real-time driver tracking\n- Secure login and user authentication using JWT\n- Flexible payment options and multi-city ride support\n- Clean, responsive UI with seamless user experience\n- Driver and rider dashboards for managing trips and profiles",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/UberClone_new"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
+        "JWT",
+        "Tailwind CSS",
+        "Socket.io",
+        "AI",
+        "Ride Sharing"
+      ]
+    },
+    {
+      "image": "images/projects/blender_photo.png",
+      "title": "Blender 3D Models Showcase",
+      "bodyText": "- A curated collection of 3D models designed using Blender\n- Includes architectural, mechanical, and creative assets\n- Demonstrates skills in modeling, lighting, texturing, and animation\n- Compiled into a visual reel for easy viewing",
+      "links": [
+        {
+          "text": "Watch Video",
+          "href": "https://1drv.ms/v/c/367726f1d8ea9d0c/Ed_nLkh0MuFJjS4sm95V0zUBQgwjwIfOn748KSZuhFmMSA?e=HovLcT"
+        }
+      ],
+      "tags": [
+        "Blender",
+        "3D Modeling",
+        "Animation",
+        "Lighting",
+        "Rendering",
+        "Showcase"
+      ]
+    }
+  ]
 }

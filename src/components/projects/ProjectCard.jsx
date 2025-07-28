@@ -16,6 +16,13 @@ const styles = {
   },
   cardStyle: {
     borderRadius: 10,
+    height: '100%',
+    display: 'flex',
+    flexDirection: 'column',
+  },
+  imageStyle: {
+    height: 200,
+    objectFit: 'cover',
   },
   cardTitleStyle: {
     fontSize: 24,
@@ -30,6 +37,9 @@ const styles = {
   },
   buttonStyle: {
     margin: 5,
+  },
+  cardBodyWrapper: {
+    flexGrow: 1,
   },
 };
 
@@ -49,8 +59,8 @@ const ProjectCard = (props) => {
         }}
         text={theme.bsSecondaryVariant}
       >
-        <Card.Img variant="top" src={project?.image} />
-        <Card.Body>
+        <Card.Img variant="top" src={project?.image} style={styles.imageStyle} />
+        <Card.Body style={styles.cardBodyWrapper}>
           <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
           <Card.Text style={styles.cardTextStyle}>
             {parseBodyText(project.bodyText)}
@@ -69,6 +79,7 @@ const ProjectCard = (props) => {
             </Button>
           ))}
         </Card.Body>
+
         {project.tags && (
           <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
             {project.tags.map((tag) => (
