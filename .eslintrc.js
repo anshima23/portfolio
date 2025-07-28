@@ -1,25 +1,26 @@
 module.exports = {
   env: {
     browser: true,
-    es2021: true,
+    es2021: true
   },
   extends: [
     'plugin:react/recommended',
-    'airbnb',
+    'airbnb'
   ],
   parserOptions: {
     ecmaFeatures: {
-      jsx: true,
+      jsx: true
     },
     ecmaVersion: 12,
-    sourceType: 'module',
+    sourceType: 'module'
   },
   plugins: [
-    'react',
+    'react'
   ],
   rules: {
     'prefer-template': 0,
-    'react/no-children-prop': [0],
-    'linebreak-style': 0
-  },
+    'react/no-children-prop': 0,
+    'linebreak-style': 0,
+    'comma-dangle': ['error', 'never'] // ✅ no trailing comma
+  }
 };
