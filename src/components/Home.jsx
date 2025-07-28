@@ -7,18 +7,18 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   nameStyle: {
-    fontSize: '5em',
+    fontSize: '5em'
   },
   inlineChild: {
-    display: 'inline-block',
+    display: 'inline-block'
   },
   mainContainer: {
     height: '100%',
     display: 'flex',
     flexDirection: 'column',
     justifyContent: 'center',
-    alignItems: 'center',
-  },
+    alignItems: 'center'
+  }
 };
 
 function Home() {
@@ -26,7 +26,7 @@ function Home() {
 
   useEffect(() => {
     fetch(endpoints.home, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -43,7 +43,7 @@ function Home() {
             options={{
               loop: true,
               autoStart: true,
-              strings: data?.roles,
+              strings: data?.roles
             }}
           />
         </div>

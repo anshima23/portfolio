@@ -13,21 +13,21 @@ import '../css/experience.css';
 const styles = {
   ulStyle: {
     listStylePosition: 'outside',
-    paddingLeft: 20,
+    paddingLeft: 20
   },
   subtitleContainerStyle: {
     marginTop: 10,
-    marginBottom: 10,
+    marginBottom: 10
   },
   subtitleStyle: {
-    display: 'inline-block',
+    display: 'inline-block'
   },
   inlineChild: {
-    display: 'inline-block',
+    display: 'inline-block'
   },
   itemStyle: {
-    marginBottom: 10,
-  },
+    marginBottom: 10
+  }
 };
 
 function Experience(props) {
@@ -37,7 +37,7 @@ function Experience(props) {
 
   useEffect(() => {
     fetch(endpoints.experiences, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res.experiences))
@@ -86,7 +86,7 @@ function Experience(props) {
                               <ReactMarkdown
                                 children={point}
                                 components={{
-                                  p: 'span',
+                                  p: 'span'
                                 }}
                               />
                             </li>
@@ -106,7 +106,7 @@ function Experience(props) {
 }
 
 Experience.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired
 };
 
 export default Experience;

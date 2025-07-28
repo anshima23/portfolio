@@ -18,7 +18,7 @@ function Education(props) {
 
   useEffect(() => {
     fetch(endpoints.education, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -58,7 +58,7 @@ function Education(props) {
                   secondary: theme.accentColor,
                   cardBgColor: theme.chronoTheme.cardBgColor,
                   cardForeColor: theme.chronoTheme.cardForeColor,
-                  titleColor: theme.chronoTheme.titleColor,
+                  titleColor: theme.chronoTheme.titleColor
                 }}
               >
                 <div className="chrono-icons">
@@ -80,7 +80,7 @@ function Education(props) {
 }
 
 Education.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired
 };
 
 export default Education;

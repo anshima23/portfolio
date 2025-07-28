@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import {
-  Button, Card, Badge, Col,
+  Button, Card, Badge, Col
 } from 'react-bootstrap';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
@@ -12,35 +12,35 @@ const styles = {
     paddingRight: 10,
     paddingTop: 5,
     paddingBottom: 5,
-    margin: 5,
+    margin: 5
   },
   cardStyle: {
     borderRadius: 10,
     height: '100%',
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column'
   },
   imageStyle: {
     height: 200,
-    objectFit: 'cover',
+    objectFit: 'cover'
   },
   cardTitleStyle: {
     fontSize: 24,
-    fontWeight: 700,
+    fontWeight: 700
   },
   cardTextStyle: {
-    textAlign: 'left',
+    textAlign: 'left'
   },
   linkStyle: {
     textDecoration: 'none',
-    padding: 10,
+    padding: 10
   },
   buttonStyle: {
-    margin: 5,
+    margin: 5
   },
   cardBodyWrapper: {
-    flexGrow: 1,
-  },
+    flexGrow: 1
+  }
 };
 
 const ProjectCard = (props) => {
@@ -55,7 +55,7 @@ const ProjectCard = (props) => {
         style={{
           ...styles.cardStyle,
           backgroundColor: theme.cardBackground,
-          borderColor: theme.cardBorderColor,
+          borderColor: theme.cardBorderColor
         }}
         text={theme.bsSecondaryVariant}
       >
@@ -107,10 +107,10 @@ ProjectCard.propTypes = {
     image: PropTypes.string,
     links: PropTypes.arrayOf(PropTypes.shape({
       text: PropTypes.string.isRequired,
-      href: PropTypes.string.isRequired,
+      href: PropTypes.string.isRequired
     })),
-    tags: PropTypes.arrayOf(PropTypes.string),
-  }).isRequired, 
+    tags: PropTypes.arrayOf(PropTypes.string)
+  }).isRequired
 };
 
 export default ProjectCard;

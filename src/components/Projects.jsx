@@ -10,11 +10,11 @@ import FallbackSpinner from './FallbackSpinner';
 
 const styles = {
   containerStyle: {
-    marginBottom: 25,
+    marginBottom: 25
   },
   showMoreStyle: {
-    margin: 25,
-  },
+    margin: 25
+  }
 };
 
 const Projects = (props) => {
@@ -25,7 +25,7 @@ const Projects = (props) => {
 
   useEffect(() => {
     fetch(endpoints.projects, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -65,7 +65,7 @@ const Projects = (props) => {
 };
 
 Projects.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired
 };
 
 export default Projects;

@@ -10,7 +10,7 @@ function MainApp() {
 
   useEffect(() => {
     fetch(endpoints.routes, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))

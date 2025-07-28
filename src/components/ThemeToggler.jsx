@@ -28,10 +28,10 @@ function ThemeToggler(props) {
 }
 
 ThemeToggler.propTypes = {
-  onClick: PropTypes.func,
+  onClick: PropTypes.func
 };
 ThemeToggler.defaultProps = {
-  onClick: () => {},
+  onClick: () => {}
 };
 
 export default ThemeToggler;

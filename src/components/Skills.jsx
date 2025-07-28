@@ -12,11 +12,11 @@ const styles = {
     height: 75,
     width: 75,
     margin: 10,
-    marginBottom: 0,
+    marginBottom: 0
   },
   introTextContainer: {
-    whiteSpace: 'pre-wrap',
-  },
+    whiteSpace: 'pre-wrap'
+  }
 };
 
 function Skills(props) {
@@ -31,7 +31,7 @@ function Skills(props) {
 
   useEffect(() => {
     fetch(endpoints.skills, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -71,7 +71,7 @@ function Skills(props) {
 }
 
 Skills.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired
 };
 
 export default Skills;

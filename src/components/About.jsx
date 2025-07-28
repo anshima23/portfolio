@@ -16,20 +16,20 @@ const styles = {
     fontWeight: 500,
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'center'
   },
   introImageContainer: {
     margin: '10px 0',
     display: 'flex',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'center'
   },
   profileImage: {
     maxWidth: '100%',
     height: 'auto',
     borderRadius: '10px',
-    boxShadow: '0 4px 12px rgba(0,0,0,0.2)',
-  },
+    boxShadow: '0 4px 12px rgba(0,0,0,0.2)'
+  }
 };
 
 function About({ header }) {
@@ -41,7 +41,7 @@ function About({ header }) {
 
   useEffect(() => {
     fetch(endpoints.about, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
@@ -78,7 +78,7 @@ function About({ header }) {
 }
 
 About.propTypes = {
-  header: PropTypes.string.isRequired,
+  header: PropTypes.string.isRequired
 };
 
 export default About;

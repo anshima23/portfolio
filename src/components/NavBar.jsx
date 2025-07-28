@@ -9,8 +9,8 @@ import ThemeToggler from './ThemeToggler';
 const styles = {
   logoStyle: {
     width: 50,
-    height: 40,
-  },
+    height: 40
+  }
 };
 
 const ExternalNavLink = styled.a`
@@ -43,7 +43,7 @@ const NavBar = () => {
 
   useEffect(() => {
     fetch(endpoints.navbar, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))

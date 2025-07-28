@@ -7,8 +7,8 @@ const styles = {
   iconStyle: {
     marginLeft: 10,
     marginRight: 10,
-    marginBottom: 10,
-  },
+    marginBottom: 10
+  }
 };
 
 function Social() {
@@ -17,7 +17,7 @@ function Social() {
 
   useEffect(() => {
     fetch(endpoints.social, {
-      method: 'GET',
+      method: 'GET'
     })
       .then((res) => res.json())
       .then((res) => setData(res))
