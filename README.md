@@ -1,11 +1,5 @@
-# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=mayankagarwal09.dev-portfolio&color=blue)
+# Dev Portfolio  [![GitHub](https://img.shields.io/github/license/anshima23/portfolio?color=blue)](https://github.com/anshima23/portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.glitch.me/badge?page_id=anshima23.portfolio&color=blue)
 
-## A minimal portfolio template for Developers!
-
-<h2 align="center">
-  <img src="https://github.com/mayankagarwal09/dev-portfolio/blob/master/images/dev-portfolio.gif" alt="Dev Portfolio" />
-  <br>
-</h2>
 
 ## Features
 
@@ -43,7 +37,7 @@ From your command line, first clone Dev Portfolio:
 
 ```bash
 # Clone the repository
-$ git clone https://github.com/mayankagarwal09/dev-portfolio
+$ git clone https://github.com/anshima23/portfolio
 
 # Move into the repository
 $ cd dev-portfolio
@@ -400,61 +394,65 @@ It has 2 keys, *logo* and *sections*.
 ```
 {
     "projects" : [
+       {
+      "image": "images/projects/fixMYRide_image.jpg",
+      "title": "FixMyRide-Smart Roadside Assistance & Vehicle Repair",
+      "bodyText": "- AI-powered roadside help with real-time issue detection for highways & remote areas.\n - Emergency services like towing, fuel, and SOS alerts tailored for women's safety.\n - Includes AI chatbots, GPS support, cost estimations, and IoT-based accident detection.",
+      "links": [
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Dev Portfolio",
-            "bodyText": "- Developer Portfolio Website made in React\n -  Fully customisable and dynamic, easily change data and images.\n - Dark Mode Support",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/dev-portfolio"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/FixRide"
         },
         {
-            "title": "MVVM Sample App",
-            "bodyText": "- An Android App that loads data from mock API and show in both **LinearLayout** and **GridLayout RecyclerView**.\n - Offline support using **Room** DB and **NetworkBoundResource**.\n - Uses the **MVVM** architecture.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/mvvm-sample-app"
-                }
-            ],
-            "tags" : [
-                "Kotlin",
-                "Android",
-                "MVVM",
-                "Room",
-                "Coroutines",
-                "Flow",
-                "Hilt-Dagger",
-                "NetworkBoundResource"
-            ]
-        },
-        {
-            "title": "Task Tracker",
-            "bodyText": "- A simple Task Tracker web app made with **Angular 12**.\n - Uses **mock JSON server** to get, add, delete or update tasks.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/task-tracker-app"
-                }
-            ],
-            "tags" : [
-                "TypeScript",
-                "Angular 12",
-                "JavaScript"
-            ]
+          "text": "Live",
+          "href": "https://fixride-frontend-fg4u.onrender.com/"
         }
+      ],
+      "tags": ["React", "Node.js", "MongoDB", "AI", "IoT", "Tailwind CSS"]
+    },
+
+    {
+      "image": "images/projects/college_navigation_image.jpg",
+      "title": "College Navigation System",
+      "bodyText": "- Seamless indoor and outdoor navigation using Mapbox and Leaflet.js\n- 3D model-enhanced interactive map of entire college campus\n- Smart AI search using Fuse.js and detailed faculty directory\n- Live routing, event integration, and mobile-friendly interface",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/College-Navigation"
+        }
+      ],
+      "tags": [
+        "Mapbox",
+        "Leaflet.js",
+        "3D Model",
+        "Fuse.js",
+        "React",
+        "Navigation"
+      ]
+    },
+    {
+      "image": "images/projects/no_password_image.jpg",
+      "title": "No-Password – Secure Password Manager",
+      "bodyText": "- Built a secure password manager with Clerk-based authentication\n- Encrypted storage for social media and credit/debit card credentials\n- User-friendly dashboard for managing stored credentials with ease\n- Fully responsive UI with seamless cross-device compatibility\n- Focused on privacy-first design and strong data protection practices",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/anshima23/no-password"
+        },
+        {
+          "text": "Live",
+          "href": "https://no-password-6ieh.vercel.app/"
+        }
+      ],
+      "tags": [
+        "React.js",
+        "Clerk Auth",
+        "Encryption",
+        "Tailwind CSS",
+        "Data Security",
+        "Password Manager"
+      ]
+    },
     ]
 }
 ```
@@ -547,16 +545,16 @@ I highly recommend to use [Vercel](https://vercel.app) because it is super easy.
 
 ## Notable Portfolios made using this template
 
-- [Mayank Agarwal](https://mayankagarwal09.com)
+- [Anshima](https://your-portfolio-link.com) <!-- Replace with your actual portfolio link -->
 
 ## Authors
 
-- **Mayank Agarwal** - [https://github.com/mayankagarwal09](https://github.com/mayankagarwal09)
+- **Anshima** - [https://github.com/anshima23](https://github.com/anshima23)
 
 ## Support
 
-If you find a bug, feel free to [open an issue](https://github.com/mayankagarwal09/dev-portfolio/issues) in this repository.
+If you find a bug, feel free to [open an issue](https://github.com/anshima23/portfolio/issues) in this repository.
 
 ## License 📄
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
