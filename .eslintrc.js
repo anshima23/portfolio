@@ -21,6 +21,6 @@ module.exports = {
     'prefer-template': 0,
     'react/no-children-prop': 0,
     'linebreak-style': 0,
-    'comma-dangle': ['error', 'never'] // ✅ no trailing comma
+    'comma-dangle': 'off'
   }
 };

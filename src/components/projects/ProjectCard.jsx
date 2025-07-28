@@ -110,7 +110,7 @@ ProjectCard.propTypes = {
       href: PropTypes.string.isRequired,
     })),
     tags: PropTypes.arrayOf(PropTypes.string),
-  }).isRequired,
+  }).isRequired, 
 };
 
 export default ProjectCard;
